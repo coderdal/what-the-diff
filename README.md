@@ -1,8 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WhatTheDiff
 
-## Getting Started
+A modern, lightning-fast code comparison tool built for developers. Paste code, upload files, and instantly see every change — highlighted beautifully. 100% private, running entirely in your browser.
 
-First, run the development server:
+## 🚀 Live Demo
+
+[Try it](https://http://diff.erdal.net.tr/)
+
+## ✨ Features
+
+- **🔍 Split & Unified View**: Toggle between side-by-side split view and a compact unified diff format instantly.
+- **🎨 Syntax Highlighting**: Auto-detects 24+ languages including JS, Python, Go, Rust, SQL, and more.
+- **⚡ Real-time Diff**: Differences update instantly as you type. No need to hit a "compare" button.
+- **🔒 100% Private**: All diffing runs entirely in your browser. Nothing is ever sent to any server.
+- **📁 File Upload**: Drag & drop any text or code file. Language is auto-detected from the extension.
+- **🔗 Shareable Links**: Share your diff with one click. The full state is encoded securely in the URL.
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router), React 19
+- **Styling**: TailwindCSS 4
+- **State Management**: Zustand
+- **Editor & Diffing**: Monaco Editor, `diff` library
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Language**: TypeScript
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn or pnpm
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/coderdal/what-the-diff
+cd what-the-diff
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
@@ -10,27 +59,28 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Learn More
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📞 Contact
 
-## Deploy on Vercel
+**GitHub**: [@coderdal](https://github.com/coderdal/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**LinkedIn**: [in/muhammederdal](https://www.linkedin.com/in/muhammederdal/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Email**: [contact@erdal.net.tr](mailto:contact@erdal.net.tr)
