@@ -4,7 +4,7 @@ A modern, lightning-fast code comparison tool built for developers. Paste code, 
 
 ## 🚀 Live Demo
 
-[Try it](https://http://diff.erdal.net.tr/)
+[Try it](https://diff.erdal.net.tr/)
 
 ## ✨ Features
 
